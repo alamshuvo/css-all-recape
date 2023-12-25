@@ -1,3 +1,4 @@
+
 h1{
     color: brown;
     font-size: 60px;
@@ -6,4 +7,33 @@ p{
     color: blue;
     font-size: 20px;
     font-weight: 20px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+/* text-bk is a class selector  */
+.text-bk{
+    color: red;
+    text-align: center;
+    background-color: aqua;
+    margin: 10px;
+}
+.first-div{
+    background-color: blue;
+    
+}
+.first-div p{
+    color: white;
+}
+.first-div p{
+    color: rgb(20, 19, 19);
+}
+/* classer er nam gulo onk vabe dekha jai ,majkhane  -  dyea and underscroll dyea  o likha jai  */
+/* id use er onk gulo subida ache id holo uniq jeta puro website e r kothaq nai id selection er jonno # newa jai .akta page e akta id takhe but onno dike akta page e onk gulo class newa jai  */
+#second, #second-1, .first-div{
+    width: 400px;
+    background-color: brown;
 }
